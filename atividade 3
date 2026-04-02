@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Table border="1"> 
+      <tr> <td rowspan="3">Célula 1</td>
+       <td>Célula 2</td></tr>
+        </tr><td>Célula 3</td></tr>
+        <td>Célula 4</td></tr>
+</Table>
+<hr>
+<Table border="1"><Tr>
+    <td colspan="2">Célula 1</td><td>Célula 2</td>
+</Tr><tr><td>Célula 3</td><td>Célula 4</td><td>Célula 5</td></tr></Table><hr>
+<table border="1">
+    <tr><td>Peças</td>
+    <td>preço</td><td rowspan="2">Informática</td></tr><Tr><td>hd</td><td>300,00</td></Tr>
+</table><hr>
+<table border="1"><tr><td colspan="7"> Janeiro</td></tr><tr>
+    <td>D</td>
+    <td>S</td>
+    <td>T</td>
+    <td>Q</td>
+    <td>Q</td>
+    <td>S</td>
+    <td>S</td>
+</tr><tr><td colspan="5"></td><td>1
+</td><td>2</td></tr><tr><td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td></tr><tr><td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td></tr><tr><td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+<td>22</td>
+<td>23</td></tr><tr><td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+<td>29</td>
+<td>30</td></tr><tr><td>31</td><td colspan="6"></td></tr>
+</table>
+<p>Manutenção de Usuários do sistema interno</p>
+<form action="*"><p>Login <input type="text" name="Login" size="15" maxlength="30"></p><p>Senha <input type="password" name="password" size="15" maxlength="30"></p><p>Status <select name="aparelhos"><option value="Inativo">Inativo</option><option value="Ativo">Ativo</option> </select></p></form>
+<form action="*"><p>Tipo<Input type="radio" name="1"/>Técnico<input type="radio" name="1"/>Professor<input type="radio" name="1"/>Aluno</form><form action="*"><p>Data de criação <input type="data" name="data" size="15" ></p><p>Perfil</p><input type="radio" name="2"/>convidado <input type="radio" name="2"/>Administrador</form>
+
+</body>
+</html>
